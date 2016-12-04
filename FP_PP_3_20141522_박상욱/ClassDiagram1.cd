@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BTreeNode&lt;keyType&gt;" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAgEAAAAAAAAQACAAEBAAAgAAIAQAQAEAiAQBEAAI=</HashCode>
+      <FileName>btnode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BTree&lt;keyType&gt;" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEgAEAABAAAICAAAIEAJAAAAAQQAEAAACgAAQCkQAA=</HashCode>
+      <FileName>btree.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BufferFile" Collapsed="true">
+    <Position X="5.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAIAAIAAAAAAAgABEEQUAAAAAgAAGAQAA=</HashCode>
+      <FileName>buffile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Member" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggAAAIAAAAAgABSgCCEECQgAAAMMgABAAABgAIAAAgI=</HashCode>
+      <FileName>class_member.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Purchase" Collapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAIAAAAIAAAAQAAAQEAQABAAAAACKAAAAgAACAhBI=</HashCode>
+      <FileName>class_purchase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Stock" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgCBAAAAAAAAAAwgCKAEgQAAgAQAAIQAAAAoAABAAgI=</HashCode>
+      <FileName>class_stock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DelimFieldBuffer" Collapsed="true">
+    <Position X="0.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAQAAAAAAAAAAAAAAgEQAAAiAABECAI=</HashCode>
+      <FileName>delim.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FixedFieldBuffer" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAEEAABAAQQAAAAAAAAAAAAgAAAAAAiAABEEAI=</HashCode>
+      <FileName>fixfld.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FixedLengthBuffer" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAABAAAAAAAAAAAAAAAAAgQAMAAAAAAAAiAAFEAAA=</HashCode>
+      <FileName>fixlen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndexBuffer&lt;keyType&gt;" Collapsed="true">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQIAAAAEAAIAAAAAAAAAAAAAAAEAAI=</HashCode>
+      <FileName>indbuff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextIndexedFile&lt;RecType&gt;" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAAAAIIAAAIAAEAAgAAEAAUCAIAEAAALAAAA=</HashCode>
+      <FileName>indfile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IndexNode&lt;keyType&gt;" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgkAAAAAAAAQACAAEBAAAhAAAAQAQAEACAYBEAAI=</HashCode>
+      <FileName>indnode.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IOBuffer" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAEBAAAAAAAAQASAAAAAAgAAEAAAQAAAgiEAFEQAI=</HashCode>
+      <FileName>iobuffer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RecordFile&lt;RecType&gt;" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAQAAAAAAAAEAAEA=</HashCode>
+      <FileName>recfile.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleIndex&lt;keyType&gt;" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAAAABCAKABBAIgAAIAAAAAAACAABkAAA=</HashCode>
+      <FileName>simpind.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextIndex" Collapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFgAAAAAAAAACACABAgYgABIAAAAAAACAAAkAAA=</HashCode>
+      <FileName>textind.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextIndexBuffer" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAQIAAAAAAAIAAAAAAAAAAAAAAAEAgI=</HashCode>
+      <FileName>tindbuff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VariableLengthBuffer" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAIAAEAAAAggQAEAAAAAAAAiAAFEABA=</HashCode>
+      <FileName>varlen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>
